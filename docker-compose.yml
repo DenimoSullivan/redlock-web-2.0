@@ -25,6 +25,6 @@ services:
     ports:
       - "7077:80"
     volumes:
-      - ./src/patch.php:/var/www/html
+      - ./src/patch.php:/var/www/html/patch.php
     depends_on:
       - db-redlock
